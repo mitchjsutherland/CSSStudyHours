@@ -1,13 +1,32 @@
+/* Advised not to edit the body width. This by default is 100%. Add divs within the body as required */
+
 body {
     margin: 0;
 }
 
 .parent {
     background-color: cadetblue;
-    padding: 50px;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 80%;
 }
 
 .child {
     background-color: aquamarine;
-    height: 300px;
+    /* height: 300px; */
+
+    width: 50%;
+    min-width: 300px;
+    
+    margin: 0 auto;
+}
+
+.parent-text, .child-text {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sample-text {
+    margin: 0 auto;
 }
