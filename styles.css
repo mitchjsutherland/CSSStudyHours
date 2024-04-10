@@ -4,6 +4,10 @@ body {
     margin: 0;
 }
 
+.html {
+    font-size: 16px;
+}
+
 .parent {
     background-color: cadetblue;
     margin: 0 auto;
@@ -31,4 +35,28 @@ body {
 
 .sample-text {
     margin: 0 auto;
+}
+
+/* EM and REM generally used for font sizes. EM sized in relation to element's parent. Sizes will compound from other parents. Default 1em is 16px. */
+
+.em-text, .rem-text {
+    color: darkseagreen
+}
+
+.em-title {
+    font-size: 1em;
+}
+
+.em-text {
+    font-size: 1em;
+}
+
+/* REM refers to root font size. Doesn't refer to body. Refers to root or html class.  */
+
+.rem-title {
+    font-size: 1rem;
+}
+
+.rem-text {
+    font-size: 1rem;
 }
