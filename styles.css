@@ -44,24 +44,24 @@ html {
 }
 
 .em-title {
-    font-size: 1em;
+    font-size: 2em;
+    /* EM and REM can also be used for margin, padding, width, etc.  */
+    /* The difference here is, when using EM, the spacing will relate to the specific element's font size */
+    margin-bottom: 1em;
 }
 
 .em-text {
     font-size: 1em;
-    /* EM and REM can also be used for margin, padding, width, etc.  */
-    /* The difference here is, when using EM, the spacing will relate to the specific element's font size */
-    margin-top: 2em;
 }
 
 /* REM refers to root font size. Doesn't refer to body. Refers to root or html class.  */
 
 .rem-title {
-    font-size: 1rem;
+    font-size: 2rem;
+    /* For spacing, REM will always refer to the root. Not the element's font-size */
+    margin-bottom: 1rem;
 }
 
 .rem-text {
     font-size: 1rem;
-    /* For spacing, REM will always refer to the root. Not the element's font-size */
-    margin-top: 2em;
 }
