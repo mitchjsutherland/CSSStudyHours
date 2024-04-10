@@ -4,7 +4,7 @@ body {
     margin: 0;
 }
 
-.html {
+html {
     font-size: 16px;
 }
 
@@ -49,6 +49,9 @@ body {
 
 .em-text {
     font-size: 1em;
+    /* EM and REM can also be used for margin, padding, width, etc.  */
+    /* The difference here is, when using EM, the spacing will relate to the specific element's font size */
+    margin-top: 2em;
 }
 
 /* REM refers to root font size. Doesn't refer to body. Refers to root or html class.  */
@@ -59,4 +62,6 @@ body {
 
 .rem-text {
     font-size: 1rem;
+    /* For spacing, REM will always refer to the root. Not the element's font-size */
+    margin-top: 2em;
 }
