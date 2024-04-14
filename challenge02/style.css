@@ -14,6 +14,9 @@
  *
  */
 
+/* MS Code */
+
+/* The box-sizing below is a universal selector and encouraged for use in layouts */
 * {
   box-sizing: border-box;
 }
@@ -24,14 +27,25 @@ body {
 }
 
 .container {
-  width: 80%;
-  max-width: 750px;
+  /* width: 80%; */
+  /* max-width: 750px; */
   margin: 0 auto;
   background: #23424a;
   color: white;
   padding: 50px 0;
 }
 
+.intro-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .intro-content {
   width: 50%;
+  /* margin: 0 auto; */
+}
+
+.more-content {
+  width: 50%;
+  margin: 0 auto;
 }
